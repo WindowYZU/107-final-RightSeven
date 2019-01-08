@@ -143,7 +143,11 @@ public class Main extends javax.swing.JFrame {
             //Q3: 建立 TaskFrame（等同於 JInternalFrame）
             //設定 noteTitle, noteContent
             //加到 jDesktopPane1 (20%)
-            
+            TaskFrame t2 = new TaskFrame();
+            jDesktopPane1.add(t2);
+            t2.setMaximizable(false);
+            t2.setIconifiable(true);
+            t2.setLocation(30, 5);
             //////////////////////////////////////////
         }
     }//GEN-LAST:event_jList1MouseClicked
